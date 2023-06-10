@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c32ed07cc2431aa1ca0fc0d323f5d3, type: 3}
+  m_Name: Global Boid Config
+  m_EditorClassIdentifier: 
+  minSpeed: 5
+  maxSpeed: 8
+  perceptionRange: 2.5
+  avoidanceRange: 1
+  maxSteeringForce: 8
+  separationWeight: 2
+  alignmentWeight: 1
+  cohesionWeight: 2.5
+  targetWeight: 2
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 8
+  boundsRadius: 0.27
+  collisionAvoidanceWeight: 20
+  collisionAvoidanceDistance: 5
